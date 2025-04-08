@@ -44,7 +44,7 @@ This is my first Visual Studio extension, so there are likely issues that may or
 - Sometimes specific keywords or strings don't seem to be decorated depending on the level of zoom and code window size.
 - The effects don't cover the entire area for extremely large fonts/zoom levels.
 - This has really only been tested on C# and loosely on C++ and on a single font.
-- Effects lile bloom could be useful on certain syntax-highlighted types. There's some code that sort of exists for it, but it's not being used yet.
+- Effects like bloom could be useful on certain syntax-highlighted types. There's some code that sort of exists for it, but it's not being used yet.
 - DPI scaling probably doesn't work properly.
 - Outlines seem to be like half a unit biased in the left/up direction.
 - I'm not really sure how to properly handle tabs. The current method of splitting spans by tabs seems to work okay, but if you ever notice any misplaced effects, it's probably because of tabs.
