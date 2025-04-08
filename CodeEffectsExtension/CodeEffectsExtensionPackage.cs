@@ -1,8 +1,5 @@
 ﻿using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Text.Classification;
 using System;
-using System.ComponentModel;
-using System.ComponentModel.Composition;
 using System.Runtime.InteropServices;
 using System.Threading;
 using Task = System.Threading.Tasks.Task;
@@ -29,13 +26,14 @@ namespace CodeEffectsExtension
 	[PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
 	[Guid(CodeEffectsExtensionPackage.PackageGuidString)]
 	[ProvideOptionPage(typeof(ShadowOptions),
-	"Text Editor", "Effects", 0, 0, true)]
+	"Text Editor", "Code Effects", 0, 0, true)]
 	public sealed class CodeEffectsExtensionPackage : AsyncPackage
 	{
 		/// <summary>
 		/// CodeEffectsExtensionPackage GUID string.
 		/// </summary>
-		public const string PackageGuidString = "dde6ffd0-bfd6-4ff1-a358-6ccf2badd0af";
+		public const string PackageGuidString = "477d6ce4-2cee-4170-80bf-ec59e677bc9b";
+
 		internal static CodeEffectsExtensionPackage Instance { get; private set; }
 
 		public static ShadowOptions Options => Instance != null ?

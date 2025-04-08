@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="CodeEffectsExtension.d1683229-d053-49ab-98be-26063008ff01" Version="1.4" Language="en-US" Publisher="John Lin" />
-        <DisplayName>Text Effects</DisplayName>
-        <Description xml:space="preserve">Adds a various text effects (drop shadow, outline, bloom) to code.</Description>
+        <Identity Id="CodeEffectsExtension.1bdc4e4a-2f4c-450d-9fef-d59f8df7d60d" Version="1.0" Language="en-US" Publisher="John Lin" />
+        <DisplayName>Code Effects</DisplayName>
+        <Description xml:space="preserve">Adds various text effects (drop shadow, outline, bloom) to code.</Description>
         <Preview>true</Preview>
     </Metadata>
     <Installation>

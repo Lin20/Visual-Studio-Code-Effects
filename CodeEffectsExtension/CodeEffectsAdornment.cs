@@ -160,7 +160,6 @@ namespace CodeEffectsExtension
 		private double ShadowBlurRadius => CodeEffectsExtensionPackage.Options.ShadowBlurRadius;
 		private double ShadowOpacity => CodeEffectsExtensionPackage.Options.ShadowOpacity;
 		private double ShadowAngle => CodeEffectsExtensionPackage.Options.ShadowAngle;
-		private DropShadowEffect DSEffect;
 
 		private double OutlineWidth => CodeEffectsExtensionPackage.Options.Outline1Width;
 		private double OutlineBrightness => CodeEffectsExtensionPackage.Options.OutlineBrightness;
@@ -339,24 +338,6 @@ namespace CodeEffectsExtension
 					tag_count++;
 
 					var bounds = view.TextViewLines.GetMarkerGeometry(span);
-
-					if (EnableDropShadows && false)
-					{
-						var textBlock = new TextBlock
-						{
-							Text = text,
-							FontFamily = view.FormattedLineSource.DefaultTextProperties.Typeface.FontFamily,
-							FontSize = view.FormattedLineSource.DefaultTextProperties.FontRenderingEmSize,
-							Foreground = Brushes.Black,
-							IsHitTestVisible = false,
-							Effect = DSEffect
-						};
-
-						Canvas.SetLeft(textBlock, bounds.Bounds.Left);
-						Canvas.SetTop(textBlock, bounds.Bounds.Top);
-
-						adornmentLayer.AddAdornment(AdornmentPositioningBehavior.TextRelative, span, null, textBlock, null);
-					}
 
 					if (foregroundBrush == null)
 						continue;
