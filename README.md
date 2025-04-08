@@ -1,6 +1,10 @@
 # Visual Studio Code Effects
 An extension for Visual Studio 2022 that adds various text effects (drop shadow, outline, bloom) to code.
 
+**[Download from the Releases](https://github.com/Lin20/Visual-Studio-Code-Effects/releases/latest)**
+
+Once it's been tested, it may get published on the Visual Studio Marketplace.
+
 ![Preview image](codeeffects.png)
 
 ## Features
