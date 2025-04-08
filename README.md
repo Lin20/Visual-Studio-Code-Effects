@@ -14,7 +14,7 @@ Once it's been tested, it may get published on the Visual Studio Marketplace.
 - Render caching to keep documents responsive
 
 ## Settings
-Settings can be figured by going to `Tools > Options > Text Editor > (Other Settings) > Effects`
+Settings can be figured by going to `Tools > Options > Text Editor > (More Settings) > Code Effects`
 
 ### Colors
 Colors are currently limited to being simple multipliers of the syntax-highlighted code being decorated. If you want black outlines, you can set mulitpliers to 0, or a very high value for white.
